@@ -1,6 +1,6 @@
 package com.company.assinment3;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Ques1 {
     static int[][] matrix;
@@ -22,6 +22,7 @@ public class Ques1 {
                 matrix[i][j] = sc.nextInt();
             }
         }
+
     }
 
     private static void printVerticalWave(){
